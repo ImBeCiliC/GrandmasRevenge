@@ -13,12 +13,11 @@ public class coin : MonoBehaviour {
 	void Start () {
 		CoinCounter = 0;
 	}
-	
 	// Update is called once per frame
 	void Update () {
-		
-	}
 
+	}
+            //Coin aufheben geändert
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.CompareTag("coin")) {
@@ -29,7 +28,7 @@ public class coin : MonoBehaviour {
 			AudioSource audio = other.gameObject.GetComponent<AudioSource>();
 			audio.Play ();
 			Destroy (other.gameObject, audio.clip.length);
-            
+
 			//Scoreanzeige
 			CoinCounter++;
 			scoreText.text = "        " + CoinCounter.ToString();
