@@ -360,7 +360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3851f48a7e9ce5b4f84171fc8be3b5dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToload: 
+  sceneToload: Szene06
 --- !u!1 &390814268
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,7 +495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3851f48a7e9ce5b4f84171fc8be3b5dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToload: 
+  sceneToload: Szene03
 --- !u!1 &714365990
 GameObject:
   m_ObjectHideFlags: 0
@@ -943,7 +943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3851f48a7e9ce5b4f84171fc8be3b5dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToload: 
+  sceneToload: Szene05
 --- !u!1 &1041482239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,7 +1361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3851f48a7e9ce5b4f84171fc8be3b5dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToload: 
+  sceneToload: Szene04
 --- !u!1 &1163359625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1496,7 +1496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3851f48a7e9ce5b4f84171fc8be3b5dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToload: 
+  sceneToload: Szene02
 --- !u!1 &1334230752
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,7 +1946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3851f48a7e9ce5b4f84171fc8be3b5dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToload: 
+  sceneToload: Szene07
 --- !u!1 &1430439064
 GameObject:
   m_ObjectHideFlags: 0
@@ -2378,4 +2378,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3851f48a7e9ce5b4f84171fc8be3b5dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToload: 
+  sceneToload: Szene08
