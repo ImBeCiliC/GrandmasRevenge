@@ -1,10 +1,10 @@
 fileFormatVersion: 2
 guid: 6a1e0fb39ff71174d92e2d581201b3d2
-timeCreated: 1484860507
+timeCreated: 1485125578
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: oma_4
+    21300000: left_idle_oma
     21300002: oma_45
     21300004: oma_46
     21300006: oma_47
@@ -14,20 +14,20 @@ TextureImporter:
     21300014: oma_51
     21300016: oma_52
     21300018: oma_55
-    21300020: oma_56
-    21300022: oma_57
-    21300024: oma_58
-    21300026: oma_59
-    21300028: oma_60
+    21300020: left_oma_move1
+    21300022: left_move_oma2
+    21300024: left_move_boss1
+    21300026: left_idle_boss1
+    21300028: left_move2_boss1
     21300030: oma_61
     21300032: oma_62
     21300034: oma_63
     21300036: oma_66
-    21300038: oma_67
-    21300040: oma_68
-    21300042: oma_69
-    21300044: oma_70
-    21300046: oma_71
+    21300038: right_move_oma1
+    21300040: right_move_oma2
+    21300042: right_move_boss1
+    21300044: right_idle_boss1
+    21300046: right_move2_boss1
     21300048: oma_72
     21300050: oma_73
     21300052: oma_74
@@ -40,6 +40,57 @@ TextureImporter:
     21300066: oma_83
     21300068: oma_84
     21300070: oma_85
+    21300072: oma_0
+    21300074: oma_1
+    21300076: oma_2
+    21300078: oma_3
+    21300080: oma_5
+    21300082: oma_6
+    21300084: oma_7
+    21300086: oma_8
+    21300088: oma_9
+    21300090: oma_10
+    21300092: oma_11
+    21300094: oma_12
+    21300096: oma_13
+    21300098: oma_14
+    21300100: oma_15
+    21300102: oma_16
+    21300104: oma_17
+    21300106: oma_18
+    21300108: oma_19
+    21300110: oma_20
+    21300112: oma_21
+    21300114: oma_22
+    21300116: oma_23
+    21300118: oma_24
+    21300120: oma_25
+    21300122: oma_26
+    21300124: oma_27
+    21300126: oma_28
+    21300128: oma_29
+    21300130: oma_30
+    21300132: oma_31
+    21300134: oma_32
+    21300136: oma_33
+    21300138: oma_34
+    21300140: oma_35
+    21300142: oma_36
+    21300144: oma_37
+    21300146: oma_38
+    21300148: oma_39
+    21300150: oma_40
+    21300152: oma_41
+    21300154: oma_42
+    21300156: oma_43
+    21300158: oma_44
+    21300160: oma_53
+    21300162: oma_54
+    21300164: oma_64
+    21300166: oma_65
+    21300168: oma_75
+    21300170: oma_76
+    21300172: right_idle_oma
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -102,19 +153,586 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oma_4
+      name: oma_0
       rect:
         serializedVersion: 2
-        x: 197
-        y: 215
-        width: 40
-        height: 73
+        x: 9
+        y: 504
+        width: 30
+        height: 69
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 504
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 504
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 504
+        width: 31
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 504
+        width: 32
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 432
+        width: 32
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_7
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 432
+        width: 32
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_8
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 504
+        width: 31
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 504
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_10
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 504
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 504
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 432
+        width: 28
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 432
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 432
+        width: 28
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 432
+        width: 34
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_16
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 432
+        width: 34
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_17
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 432
+        width: 31
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 432
+        width: 35
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_19
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 432
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_20
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 432
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 360
+        width: 28
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_22
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 360
+        width: 28
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_23
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 360
+        width: 28
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_24
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 360
+        width: 32
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 360
+        width: 32
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_26
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 360
+        width: 32
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_27
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 288
+        width: 32
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_28
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 360
+        width: 32
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_29
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 360
+        width: 35
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_30
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 360
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_31
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 360
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 288
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_33
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 288
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_34
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 288
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_35
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 288
+        width: 29
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_36
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 288
+        width: 29
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_37
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 288
+        width: 30
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_38
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 288
+        width: 30
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_39
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 288
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_40
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 288
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_41
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 288
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_42
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 216
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_43
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 216
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_44
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 216
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -223,20 +841,46 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: oma_55
+      name: oma_53
       rect:
         serializedVersion: 2
-        x: 197
+        x: 8
         y: 144
-        width: 41
-        height: 71
+        width: 35
+        height: 68
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: oma_56
+      name: oma_54
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 144
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_55
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 144
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: left_oma_move1
       rect:
         serializedVersion: 2
         x: 151
@@ -244,12 +888,12 @@ TextureImporter:
         width: 38
         height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: oma_57
+      name: left_move_oma2
       rect:
         serializedVersion: 2
         x: 247
@@ -257,12 +901,12 @@ TextureImporter:
         width: 38
         height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: oma_58
+      name: left_move_boss1
       rect:
         serializedVersion: 2
         x: 297
@@ -270,25 +914,25 @@ TextureImporter:
         width: 31
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: oma_59
+      name: left_idle_boss1
       rect:
         serializedVersion: 2
         x: 345
-        y: 144
+        y: 143
         width: 31
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: oma_60
+      name: left_move2_boss1
       rect:
         serializedVersion: 2
         x: 393
@@ -296,7 +940,7 @@ TextureImporter:
         width: 31
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -340,20 +984,46 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: oma_66
+      name: oma_64
       rect:
         serializedVersion: 2
-        x: 194
-        y: 73
-        width: 46
-        height: 70
+        x: 7
+        y: 72
+        width: 35
+        height: 68
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: oma_67
+      name: oma_65
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 72
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_66
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 72
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: right_move_oma1
       rect:
         serializedVersion: 2
         x: 149
@@ -361,12 +1031,12 @@ TextureImporter:
         width: 38
         height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: oma_68
+      name: right_move_oma2
       rect:
         serializedVersion: 2
         x: 245
@@ -374,12 +1044,12 @@ TextureImporter:
         width: 38
         height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: oma_69
+      name: right_move_boss1
       rect:
         serializedVersion: 2
         x: 298
@@ -387,12 +1057,12 @@ TextureImporter:
         width: 31
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: oma_70
+      name: right_idle_boss1
       rect:
         serializedVersion: 2
         x: 346
@@ -400,12 +1070,12 @@ TextureImporter:
         width: 31
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: oma_71
+      name: right_move2_boss1
       rect:
         serializedVersion: 2
         x: 394
@@ -413,7 +1083,7 @@ TextureImporter:
         width: 31
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -457,15 +1127,41 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
+      name: oma_75
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: oma_76
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
       name: oma_77
       rect:
         serializedVersion: 2
-        x: 197
+        x: 103
         y: 0
-        width: 40
-        height: 72
+        width: 36
+        height: 68
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -570,6 +1266,32 @@ TextureImporter:
         height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: left_idle_oma
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 144
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: right_idle_oma
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 72
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
