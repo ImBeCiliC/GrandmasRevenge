@@ -8,14 +8,15 @@ public class LevelManger : MonoBehaviour {
 	public GameObject currentCheckpoint; 
 
 	//lebensanzeige
-	public int leben;
+	private int lebenCoun;
 	public Text lebenText;
 	public Text timerText;
 	public float roundTimer;
 
 	void Start()
 	{
-		lebenText.text = "        " + leben.ToString ();
+		lebenCoun = PlayerPrefs.GetInt ("Leben");
+		lebenText.text = "        " + lebenCoun.ToString ();
 
 	}
 	//Spieler Gameobject
@@ -34,17 +35,22 @@ public class LevelManger : MonoBehaviour {
 		}
 	}
 		
+	public void Lebendazu()
+	{
+		lebenCoun++;
+		PlayerPrefs.SetInt ("Leben", lebenCoun);
+	}
 	public void RespawnPlayer()
 	{
    
 		//Leben abziehen
-		leben = leben-1; 
-
+		lebenCoun = lebenCoun-1; 
+		PlayerPrefs.SetInt ("Leben", lebenCoun);
 		//Lebensanzeige aktualisieren
-		lebenText.text = "         " + leben.ToString ();
+		lebenText.text = "         " + lebenCoun.ToString ();
 
 		// Überprüfen ob noch leben
-		if (leben > 0) {
+		if (lebenCoun > 0) {
 			//falls ja -->Respawn
 			//Spieler an richtigen Checkpoint bringen
 			spieler.transform.position = currentCheckpoint.transform.position;

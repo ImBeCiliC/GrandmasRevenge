@@ -11,7 +11,8 @@ public class coin : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		CoinCounter = 0;
+		//CoinCounter = 0;
+		CoinCounter = PlayerPrefs.GetInt("Score");
 	}
 	// Update is called once per frame
 	void Update () {
@@ -31,6 +32,7 @@ public class coin : MonoBehaviour {
 
 			//Scoreanzeige
 			CoinCounter++;
+			PlayerPrefs.SetInt ("Score", CoinCounter);
 			scoreText.text = "        " + CoinCounter.ToString();
 			Debug.Log ("Score: " + CoinCounter);
 

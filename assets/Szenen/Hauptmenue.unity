@@ -223,8 +223,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 214413771}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.44, z: 0}
-  m_LocalScale: {x: 0.7955559, y: 0.7342182, z: 1}
+  m_LocalPosition: {x: -0.08, y: -0.44, z: 0}
+  m_LocalScale: {x: 0.90224665, y: 0.7342182, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -286,9 +286,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 0.5882353, g: 0.44313726, b: 0.05490196, a: 1}
+    m_PressedColor: {r: 0.6039216, g: 0.49019608, b: 0.011764706, a: 1}
+    m_DisabledColor: {r: 0.4627451, g: 0.3372549, b: 0.011764706, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -304,7 +304,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 221771131}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 479985537}
+        m_MethodName: Hilfe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &221771131
@@ -352,7 +363,6 @@ GameObject:
   - component: {fileID: 479985540}
   - component: {fileID: 479985539}
   - component: {fileID: 479985537}
-  - component: {fileID: 479985538}
   m_Layer: 5
   m_Name: Menue
   m_TagString: Untagged
@@ -390,20 +400,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 479985535}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5db4a3e2d4f679945b79ef33d212ce94, type: 3}
+  m_Script: {fileID: 11500000, guid: b3c12d320ad29f14986646c77decbea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &479985538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 479985535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d96dabb78e5d94b9288d695cf86fca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  starten: Szene00
+  levelauswahl: levelauswahl
+  hilfe: Szene08
+  spielerLeben: 10
+  leben: 5
 --- !u!114 &479985539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -470,7 +474,6 @@ GameObject:
   - component: {fileID: 484706542}
   - component: {fileID: 484706541}
   - component: {fileID: 484706540}
-  - component: {fileID: 484706543}
   m_Layer: 5
   m_Name: Level
   m_TagString: Untagged
@@ -517,9 +520,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 0.58823526, g: 0.4414747, b: 0.056228355, a: 1}
+    m_PressedColor: {r: 0.60294116, g: 0.48907945, b: 0.013300185, a: 1}
+    m_DisabledColor: {r: 0.46323532, g: 0.33920476, b: 0.0136245815, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -536,8 +539,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 484706543}
-        m_MethodName: Level
+      - m_Target: {fileID: 479985537}
+        m_MethodName: levelAuswahl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -582,17 +585,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 484706538}
---- !u!114 &484706543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 484706538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b2ca4bd02cc31147a4f0f888f623cac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &490844582
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,9 +642,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 0.5882353, g: 0.44313726, b: 0.05490196, a: 1}
+    m_PressedColor: {r: 0.6039216, g: 0.49019608, b: 0.011764706, a: 1}
+    m_DisabledColor: {r: 0.4627451, g: 0.3372549, b: 0.011764706, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -670,7 +662,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 479985537}
-        m_MethodName: Quit
+        m_MethodName: beenden
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -834,9 +826,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 0.5882353, g: 0.44313726, b: 0.05490196, a: 1}
+    m_PressedColor: {r: 0.6039216, g: 0.49019608, b: 0.011764706, a: 1}
+    m_DisabledColor: {r: 0.4627451, g: 0.3372549, b: 0.011764706, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -853,8 +845,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 479985538}
-        m_MethodName: StartLevel
+      - m_Target: {fileID: 479985537}
+        m_MethodName: Starten
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1294,7 +1286,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Spielen
+  m_Text: Starten
 --- !u!222 &2081123137
 CanvasRenderer:
   m_ObjectHideFlags: 0

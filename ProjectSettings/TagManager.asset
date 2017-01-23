@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Spieler
   - coin
+  - leben
   layers:
   - Default
   - TransparentFX
