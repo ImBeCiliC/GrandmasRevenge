@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Hauptmene : MonoBehaviour {
-
+	
 	public string starten;
 	public string levelauswahl;
 	public string hilfe;

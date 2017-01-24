@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LevelManger : MonoBehaviour {
 	//aktueller Checkpoint
@@ -12,7 +13,7 @@ public class LevelManger : MonoBehaviour {
 	public Text lebenText;
 	public Text timerText;
 	public float roundTimer;
-
+	public Transform canvas;
 	void Start()
 	{
 		lebenCoun = PlayerPrefs.GetInt ("Leben");
@@ -58,9 +59,17 @@ public class LevelManger : MonoBehaviour {
 		} else 
 		{
 			//falls nein --> Ende game
-			Time.timeScale = 0.0f;
-			Debug.Log ("Game over");
+			if (canvas.gameObject.activeInHierarchy == false) 
+			{
+				canvas.gameObject.SetActive (true); 
+
+			} 
 		}
 
+	}
+
+	public void Beenden()
+	{
+		SceneManager.LoadScene ("Hauptmenue");
 	}
 }

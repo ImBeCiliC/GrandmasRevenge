@@ -7,6 +7,7 @@ TagManager:
   - Spieler
   - coin
   - leben
+  - Pause
   layers:
   - Default
   - TransparentFX

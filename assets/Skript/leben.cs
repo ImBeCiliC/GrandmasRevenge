@@ -8,7 +8,7 @@ public class leben : MonoBehaviour {
 	private int lebenCounter;
 	public Text lebenText;
 
-	public GameObject gameOverScreen;
+
 	//public CharacterController player;
 	// Use this for initialization
 	void Start () {
@@ -17,15 +17,6 @@ public class leben : MonoBehaviour {
 		//player.FindObjectOfType<CharacterController> ();
 	}
 	// Update is called once per frame
-	void Update () {
-
-		if (lebenCounter < 0) {
-			gameOverScreen.SetActive (true);
-			//player.gameObject.SetActive (false);
-		}
-		
-
-	}
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
