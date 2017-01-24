@@ -8,6 +8,7 @@ TagManager:
   - coin
   - leben
   - Pause
+  - killzone
   layers:
   - Default
   - TransparentFX
