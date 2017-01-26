@@ -6,6 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: assets/Szenen/Titelbild.unity
+  - enabled: 1
     path: assets/Szenen/Hauptmenue.unity
   - enabled: 1
     path: assets/Szenen/levelauswahl.unity
@@ -21,9 +23,5 @@ EditorBuildSettings:
     path: assets/Szenen/Szene04.unity
   - enabled: 1
     path: assets/Szenen/Szene05.unity
-  - enabled: 1
-    path: assets/Szenen/Szene06.unity
-  - enabled: 1
-    path: assets/Szenen/Szene07.unity
   - enabled: 1
     path: assets/Szenen/Szene08.unity

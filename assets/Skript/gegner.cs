@@ -20,7 +20,7 @@ public class gegner : MonoBehaviour {
 		startPos = transform.position;
 
 		//zufällige bewegung von gegner
-		speed = Random.Range(5f,15f);
+		//speed = Random.Range(5f,15f);
 		sr = gameObject.GetComponent<SpriteRenderer> ();
 
 	}

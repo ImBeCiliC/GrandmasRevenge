@@ -11,9 +11,9 @@ public class levelauswahl : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//Level 1 aktiv
-		PlayerPrefs.SetInt("Szene00", 1);
+		PlayerPrefs.SetInt("Szene00", 3);
 
-		if (PlayerPrefs.GetInt (sceneToload.ToString ()) == 1) {
+		if (PlayerPrefs.GetInt (sceneToload.ToString ()) == 3) {
 			//Button aktivieren
 			this.GetComponent<Button>().interactable = true;
 		} else 

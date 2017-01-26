@@ -70,7 +70,7 @@ MonoBehaviour:
   levelManger: {fileID: 0}
   startPos: {x: 0, y: 0, z: 0}
   newPos: {x: 0, y: 0, z: 0}
-  speed: 0
+  speed: 1
   tempPos: {x: 0, y: 0, z: 0}
   sr: {fileID: 0}
 --- !u!212 &212303763848158344

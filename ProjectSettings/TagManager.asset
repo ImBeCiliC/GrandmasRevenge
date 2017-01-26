@@ -9,6 +9,7 @@ TagManager:
   - leben
   - Pause
   - killzone
+  - platform
   layers:
   - Default
   - TransparentFX
@@ -51,6 +52,9 @@ TagManager:
     locked: 0
   - name: Hintergrund3
     uniqueID: 1206949469
+    locked: 0
+  - name: Hintergrund4
+    uniqueID: 3637113065
     locked: 0
   - name: Default
     uniqueID: 0
