@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4584387138634120}
   - component: {fileID: 212960749793882080}
   - component: {fileID: 61540469337888914}
-  - component: {fileID: 114571739806393956}
+  - component: {fileID: 114881314310228452}
   m_Layer: 0
   m_Name: bewklein
   m_TagString: Untagged
@@ -35,9 +35,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1377863098707472}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 57.82, y: -1.47, z: 0}
-  m_LocalScale: {x: 1, y: 0.5983492, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 104.54857, y: -4.0812216, z: 0}
+  m_LocalScale: {x: 1, y: 0.89080447, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -56,7 +56,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 4.21, y: 1.93}
---- !u!114 &114571739806393956
+--- !u!114 &114881314310228452
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -64,10 +64,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1377863098707472}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d33126a26cef694e8e1736636ca8d1a, type: 3}
+  m_Script: {fileID: 11500000, guid: e3ad53910c1061e4d94144bd0464b016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
 --- !u!212 &212960749793882080
 SpriteRenderer:
   m_ObjectHideFlags: 1

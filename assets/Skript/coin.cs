@@ -8,11 +8,14 @@ public class coin : MonoBehaviour {
 
 	private int CoinCounter;
 	public Text scoreText;
+	public Text highscoreText; 
 
 	// Use this for initialization
 	void Start () {
 		//CoinCounter = 0;
 		CoinCounter = PlayerPrefs.GetInt("Score");
+		highscoreText.text = "Highscore: " + PlayerPrefs.GetInt ("Highscore").ToString(); 
+
 	}
 	// Update is called once per frame
 	void Update () {
@@ -35,6 +38,12 @@ public class coin : MonoBehaviour {
 			PlayerPrefs.SetInt ("Score", CoinCounter);
 			scoreText.text = "        " + CoinCounter.ToString();
 			Debug.Log ("Score: " + CoinCounter);
+
+			if (CoinCounter > PlayerPrefs.GetInt ("Highscore")) {
+				// Überschreibe Highscore
+				PlayerPrefs.SetInt("Highscore", CoinCounter); 
+				highscoreText.text = "Highscore: " + PlayerPrefs.GetInt ("Highscore").ToString();
+			}
 
 		}
 	}

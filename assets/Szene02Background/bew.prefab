@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4301835325030042}
   - component: {fileID: 212542177777303290}
   - component: {fileID: 61319894006322010}
-  - component: {fileID: 114149194844085038}
+  - component: {fileID: 50037413048114380}
   m_Layer: 0
   m_Name: bew
   m_TagString: Untagged
@@ -42,6 +42,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50037413048114380
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1471579988841544}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &61319894006322010
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -56,18 +76,6 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 5.5499997, y: 2.08}
---- !u!114 &114149194844085038
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1471579988841544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d33126a26cef694e8e1736636ca8d1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
 --- !u!212 &212542177777303290
 SpriteRenderer:
   m_ObjectHideFlags: 1
