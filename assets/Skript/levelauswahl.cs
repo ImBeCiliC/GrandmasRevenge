@@ -11,6 +11,7 @@ public class levelauswahl : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//Level 1 aktiv
+		//PlayerPrefs.DeleteAll();
 		PlayerPrefs.SetInt ("Szene00", 1);
 
 
@@ -30,6 +31,8 @@ public class levelauswahl : MonoBehaviour {
 	}
 
 	public void LoadLevel(){
+		
+		Time.timeScale = 1; 
 		SceneManager.LoadScene (sceneToload);
 	}
 }

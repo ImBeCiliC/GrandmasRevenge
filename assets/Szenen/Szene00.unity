@@ -16352,7 +16352,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1662215021}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 130, y: -311.69, z: 0}
+  m_LocalPosition: {x: 267.4, y: -311.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 128295642}
@@ -16759,7 +16759,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Time 299
+  m_Text: 'Time '
 --- !u!222 &1699467144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16864,7 +16864,7 @@ MonoBehaviour:
   currentCheckpoint: {fileID: 0}
   lebenText: {fileID: 237444757}
   timerText: {fileID: 1699467143}
-  roundTimer: 140
+  roundTimer: 190
   canvas: {fileID: 1244147545}
   spieler: {fileID: 1980742568}
 --- !u!4 &1711760501

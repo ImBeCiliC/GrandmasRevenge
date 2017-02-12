@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Steuerung : MonoBehaviour {
 
 	public Transform canvas;
-
 	
 	// Update is called once per frame
 	void Update () {
@@ -41,6 +41,7 @@ public class Steuerung : MonoBehaviour {
 		Time.timeScale = 1; 
 		int scene = SceneManager.GetActiveScene ().buildIndex;
 		SceneManager.LoadScene (scene, LoadSceneMode.Single);
+		PlayerPrefs.SetInt ("Leben", 3);
 
 	}
 }

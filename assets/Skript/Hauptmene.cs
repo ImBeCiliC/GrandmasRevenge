@@ -12,7 +12,7 @@ public class Hauptmene : MonoBehaviour {
 	public int leben;
 	public void Starten()
 	{
-		
+		Time.timeScale = 1; 
 		PlayerPrefs.SetInt ("Leben", leben);
 		PlayerPrefs.SetInt ("Score", 0);
 		PlayerPrefs.SetInt ("MaxLeben", spielerLeben);
@@ -22,6 +22,7 @@ public class Hauptmene : MonoBehaviour {
 
 	public void levelAuswahl()
 	{
+		Time.timeScale = 1; 
 		PlayerPrefs.SetInt ("Leben", leben);
 		PlayerPrefs.SetInt ("Score", 0);
 		PlayerPrefs.SetInt ("LebenSpieler", spielerLeben);
