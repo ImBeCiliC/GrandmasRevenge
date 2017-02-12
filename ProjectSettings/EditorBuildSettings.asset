@@ -17,7 +17,7 @@ EditorBuildSettings:
     path: assets/Szenen/Szene01.unity
   - enabled: 1
     path: assets/Szenen/Szene02.unity
-  - enabled: 1
+  - enabled: 0
     path: assets/Szenen/Szene03.unity
   - enabled: 1
     path: assets/Szenen/Szene04.unity

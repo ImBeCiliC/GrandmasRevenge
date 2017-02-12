@@ -409,7 +409,7 @@ MonoBehaviour:
   levelauswahl: levelauswahl
   hilfe: Szene08
   spielerLeben: 10
-  leben: 5
+  leben: 3
 --- !u!114 &479985539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1058,13 +1058,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 112d07eaeb08e1249920d5e6f78466fb, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.11
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 36
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
