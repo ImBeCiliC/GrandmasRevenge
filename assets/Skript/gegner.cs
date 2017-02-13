@@ -12,6 +12,7 @@ public class gegner : MonoBehaviour {
 	public float speed;
 	public Vector3 tempPos;
 	public SpriteRenderer sr;
+    public bool collision;
 
     void Start()
 	{
@@ -48,9 +49,26 @@ public class gegner : MonoBehaviour {
     
 	void OnCollisionEnter2D(Collision2D other) 
 	{
-		if (other.gameObject.tag == "Spieler") {
+        if (other.gameObject.tag == "Spieler")
+        {
+            if (collision)
+            {
+                return;
+            }
+            collision = true;
+            Debug.Log("Enter" + collision);
             //SceneManager.LoadScene (SceneManager.GetActiveScene().name);
             levelManger.RespawnPlayer();
         }
-	}
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (!collision)
+        {
+            return;
+        }
+        collision = false;
+        Debug.Log("Exit" + collision);
+    }
 }
