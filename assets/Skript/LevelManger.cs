@@ -54,6 +54,7 @@ public class LevelManger : MonoBehaviour {
 		if (lebenCoun > 0) {
 			//falls ja -->Respawn
 			//Spieler an richtigen Checkpoint bringen
+          
 			spieler.transform.position = currentCheckpoint.transform.position;
 
 		} else 

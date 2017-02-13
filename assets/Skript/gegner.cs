@@ -13,7 +13,7 @@ public class gegner : MonoBehaviour {
 	public Vector3 tempPos;
 	public SpriteRenderer sr;
 
-	void Start()
+    void Start()
 	{
 		levelManger = FindObjectOfType<LevelManger>();
         
@@ -49,7 +49,6 @@ public class gegner : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D other) 
 	{
 		if (other.gameObject.tag == "Spieler") {
-
             //SceneManager.LoadScene (SceneManager.GetActiveScene().name);
             levelManger.RespawnPlayer();
         }
