@@ -14,6 +14,7 @@ public class coin : MonoBehaviour {
 	void Start () {
 		//CoinCounter = 0;
 		CoinCounter = PlayerPrefs.GetInt("Score");
+		scoreText.text = "        " + PlayerPrefs.GetInt ("Score").ToString(); 
 		highscoreText.text = "Highscore: " + PlayerPrefs.GetInt ("Highscore").ToString(); 
 
 	}
@@ -36,7 +37,7 @@ public class coin : MonoBehaviour {
 			//Scoreanzeige
 			CoinCounter++;
 			PlayerPrefs.SetInt ("Score", CoinCounter);
-			scoreText.text = "        " + CoinCounter.ToString();
+			scoreText.text = "       " + PlayerPrefs.GetInt ("Score").ToString(); 
 			Debug.Log ("Score: " + CoinCounter);
 
 			if (CoinCounter > PlayerPrefs.GetInt ("Highscore")) {

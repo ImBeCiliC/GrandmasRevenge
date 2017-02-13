@@ -2668,7 +2668,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '        0'
+  m_Text: 
 --- !u!222 &180976995
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2824,7 +2824,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.35294116, g: 0.20976016, b: 0.028546717, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -3704,11 +3704,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -7.51
+      value: -7.56
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.86
+      value: -1.97
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3852,8 +3852,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1f7fac8028daf64ab9b3111f598da47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  highscoreText: {fileID: 0}
+  scoreText: {fileID: 180976994}
+  highscoreText: {fileID: 1099434007}
 --- !u!114 &235995117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3865,7 +3865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e729dcc9f10739747a5776805fd3bc36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lebenText: {fileID: 0}
+  lebenText: {fileID: 251668772}
 --- !u!1001 &246706898
 Prefab:
   m_ObjectHideFlags: 0
@@ -7620,7 +7620,7 @@ MonoBehaviour:
   timerText: {fileID: 264327597}
   roundTimer: 180
   canvas: {fileID: 342448023}
-  spieler: {fileID: 0}
+  spieler: {fileID: 235995114}
 --- !u!4 &540112624
 Transform:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ public class titelbild : MonoBehaviour {
 
 		if(timeGone >= 4.0f)
 		{
-			SceneManager.LoadScene("Hauptmenue");
+			SceneManager.LoadScene("geschichte");
 		}
 	}
 }

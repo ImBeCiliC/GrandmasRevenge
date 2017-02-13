@@ -8,6 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: assets/Szenen/Titelbild.unity
   - enabled: 1
+    path: assets/Szenen/geschichte.unity
+  - enabled: 1
     path: assets/Szenen/Hauptmenue.unity
   - enabled: 1
     path: assets/Szenen/levelauswahl.unity
