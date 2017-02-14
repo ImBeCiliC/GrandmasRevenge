@@ -6,11 +6,9 @@ public class haltCharakter : MonoBehaviour {
 
 
 
-	void OnTriggerEnter2D(Collider2D other)
+	void OnTriggerStay2D(Collider2D other)
 	{
-
 			other.transform.parent = gameObject.transform;
-		
 	}
 
 	void OnTriggerExit2D(Collider2D other)

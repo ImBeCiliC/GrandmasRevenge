@@ -40,8 +40,6 @@ public class fallPlattform : MonoBehaviour {
 		//Plattform fallen
 		yield return new WaitForSeconds (zeit);
 		Destroy (platt);
-
-
 	}
 
 	void OnTriggerEnter2D(Collider2D other)
